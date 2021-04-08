@@ -22,8 +22,17 @@ img {
 
 .chevron {
     font-size: 30px;
+    cursor: pointer;
 }
 
 .images {
     padding: 5%;
+}
+
+.images img {
+    display: none;
+}
+
+.images img.active {
+    display: block;
 }
