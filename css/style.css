@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+} 
+
+.container {
+    max-width: 950px;
+    margin: auto;
+    /*background-color: aqua;*/
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.chevron {
+    font-size: 30px;
+}
+
+.images {
+    padding: 5%;
+}
