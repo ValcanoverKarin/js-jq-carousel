@@ -1,3 +1,4 @@
+//freccia destra
 var rightChevron = $('.chevron.right');
 
 rightChevron.click(function() {
@@ -24,3 +25,10 @@ rightChevron.click(function() {
     //nextImg.addClass('active');
 
 });
+
+//freccia sinistra
+var leftChevron = $('.chevron.left')
+
+leftChevron.click(function() {
+    
+}
