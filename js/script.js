@@ -10,4 +10,7 @@ rightChevron.click(function() {
     //devo selezionare l elemento successivo avendo l elemento corrente
     var nextImg = currentActive.next();
     console.log(nextImg)
+    //aggiungo la classe active
+    nextImg.addClass('active');
+
 });
